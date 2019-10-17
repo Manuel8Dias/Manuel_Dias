@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
+*,*:after, *:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.self-clear:before, .self-clear:after{
+    content:"";
+    display:table;
+} 
+
+.self-clear:after{
+    clear: both;
+}
+
+.self-clear{
+    *zoom:1;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'Chilanka', cursive;
+    font-size: 18.2rem;
+    color: #1c6b02;
+}
+
+h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: #fff;
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: #fff;
+}
+
+h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #fff;
+}
+
+h5{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #fff;
+}
+
+h6{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #fff;
+}
+
+p{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.container{
+    padding: 30px 20px 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img, video, object{
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 30px 20px 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.verMais{
+    display: block;
+    font-size:2.5rem;
+    text-align: center;
+    padding:2px;
+    margin-top: 7px;    
+    margin-left: 90%;
+    border-radius:6%;
+    color:black;
+    background-color: #175303;    
+}
+
+.verMais:hover{
+    color:rgba(243, 243, 243, 0.952);
+    background-color: #113f02;
+    text-decoration: none;   
+}
+
+.anterior{
+    display: block;
+    font-size:2.5rem;
+    text-align: center;
+    padding:2px;
+    margin-top: 7px;    
+    margin-left: 90%;
+    border-radius:6%;
+    color:black;
+    background-color: #175303;    
+}
+
+.anterior:hover{
+    color:rgba(243, 243, 243, 0.952);
+    background-color: #113f02;
+    text-decoration: none;   
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------HEADER---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.logo{
+    flex: auto;
+    margin-bottom: 10px;
+    width: 110px;
+}
+.name{
+    font-size: 19.57rem;
+    margin-top: 25px;
+    padding-left: 20px;
+    flex: auto;   
+}
+
+.naveg{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.naveg ul{
+    padding: 0px 20px 30px 20px;
+    justify-content: center;
+    list-style: none;
+}
+
+.naveg li{
+    border-right: 1px solid #1c8d02;
+}
+
+.naveg ul li{
+    padding: 5px 15px;
+}
+
+.naveg li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3.7rem;
+    padding-left:5px;
+    padding-right:5px;
+    color:#1c8d02;
+    margin-right: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.naveg li:last-child{
+    border-right: none;
+}
+
+.naveg a.select {
+    background-color: #1c4e02;
+    color: #c2dbbc;
+}
+
+.naveg li a:hover {
+    background-color: #9b3a3a;
+    color: #c2dbbc;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------BIO-INTRO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.bioIntro{
+    flex: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bioIntro h4{
+    color: #deeed9;
+    text-shadow: 2px 2px rgb(0, 0, 0), 3px 3px rgb(55, 99, 35);    
+}
+
+.idade{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------AUDIOVISUAL-INTRO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.audivisualIntro{
+    flex: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carousel-indicators{
+    color:white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------BIOGRAFIA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.container-bio{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.item{
+    flex: auto;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.itemTitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    background: #0b3b00;
+}
+
+.texto {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:2rem ;
+    background:  black;
+    color: #fff;
+} 
+
+.texto p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:3rem ;
+    background:  black;
+    color: #fff;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------AUDIOVISUAL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#filme{
+    width: 600px;
+    height: auto;  
+    margin: auto;
+    text-align: center;
+}
+
+.listaFilmes{
+    padding: 0px 20px 30px 20px;
+    justify-content: center;
+}
+
+.av{
+    background-color: black;
+    bottom: 10px;
+    color: #1c6b02;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer; 
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------WEB------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.trabalhosWeb{
+    margin: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 8rem;
+    color: #1c6b02;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.traballho{
+    display: block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color:#1c8d02;
+    margin-bottom: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.traballho:hover {
+    color: #771313;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------- CONTACTOS ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contactos{
+    margin: auto;
+    color:#1c8d02;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5rem;
+}
+
+.info{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 4rem;
+}
+
+.redes{
+    align-content: center;
+    margin: 10px;
+    width: 6%;
+}
+/*------------------------------------------------------------------------------------------------ ------------------------------------- TO DO LIST ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#contagem {
+    position: absolute;
+    bottom: 0%;
+}
+
+#myInput {
+    padding: 20px;
+    background-color: rgb(219, 219, 250);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+#butt {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 110%;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(59, 59, 59);
+    color:white;
+    cursor: pointer;
+}
+
+li {
+    font-size: 160%;
+    font-family: Verdana, Tahoma, sans-serif;
+    color:#ffffff;
+}
+
+.listatarefas {
+    margin: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 8rem;
+    color: #1c6b02;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #1c6b02;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------CALCULADORA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.container-calculator{
+    max-width: 900px;
+    margin-left: 350px;
+}
+
+.flex-container-calculator{
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 30px 20px 30px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.mostrador{
+    width: 50%;
+	height: 45px;
+    text-align: right;
+    padding: 20px;
+    background-color: rgb(219, 219, 250);
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    border:none;
+}
+
+#input{
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px 2px #c2dbbc;
+}
+
+#resposta{
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 2px #c2dbbc;
+    color: #1e7700;
+}
+.botao{
+	height: 60px;
+	box-sizing: border-box;
+    background-color: #175a00;
+    bottom: 10px;
+    color: #c2dbbc;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3.5rem;
+    cursor: pointer; 
+    text-decoration: none;
+    border-radius: 2%;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 30%;
+    border: none;
+}
+
+.botao:hover {
+    background-color: #771313;
+    color: #c2dbbc;
+    box-shadow: 2px 2px hsla(0, 72%, 27%, 0.5);
+}
+
+.botao:active {
+    box-shadow: none;
+}
