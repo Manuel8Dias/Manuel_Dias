@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>Portfolio Manuel Dias - Calculadora</title>
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <a href="index.html">
+                <img class="logo" src="img/Sapolas.png" alt="Logo" />
+            </a>
+            <h1 class="name">Manuel Dias</h1>
+            <nav class="naveg">
+                    <ul class="flex-container">
+                        <li><a href="index.html" class="menu">Principal</a></li>
+                        <li><a href="bio.html" class="menu">Biografia</a></li>
+                        <li><a href="audivisual.html" class="menu">Audiovisual</a></li>
+                        <li><a href="web.html" class="menu select">Web</a></li>
+                        <li><a href="contactos.html" class="menu">Contactos</a></li>
+                    </ul>
+            </nav>
+        </div> <!--end flex-container (header)-->
+    </header>
+
+    <div class="container-calculator">
+        <input type="text" class="mostrador" id="input" readonly>
+        <input type="text" class="mostrador" id="resposta" readonly>
+    </div> <!-- End container-calculator -->
+        <div class="flex-container-calculator">
+
+            <input type="button" value="1" onclick="numero(1)" class="botao Um">
+            <input type="button" value="2" onclick="numero(2)" class="botao Dois">
+            <input type="button" value="3" onclick="numero(3)" class="botao Tres">
+            <input type="button" value="4" onclick="numero(4)" class="botao Quatro">
+            <input type="button" value="5" onclick="numero(5)" class="botao Cinco">
+            <input type="button" value="6" onclick="numero(6)" class="botao Seis">
+            <input type="button" value="7" onclick="numero(7)" class="botao Sete">
+            <input type="button" value="8" onclick="numero(8)" class="botao Oito">
+            <input type="button" value="9" onclick="numero(9)" class="botao Nove">
+            <input type="button" value="+/-" onclick="operacao('+/-')" class="botao Negativo">
+            <input type="button" value="0" onclick="numero(0)" class="botao Zero">
+            <input type="button" value="+" onclick="operacao('+')" class="botao Soma">
+            <input type="button" value="-" onclick="operacao('-')" class="botao Subtraccao">
+            <input type="button" value="x" onclick="operacao('x')" class="botao Multiplicacao">
+            <input type="button" value="&#247" onclick="operacao('/')" class="botao Divisao">
+            <input type="button" value="( )" onclick="parenteses()" class="botao Parenteses">
+            <input type="button" value="Apagar" onclick="apagar()" class="botao Apagar">
+            <input type="button" value="&#8592" onclick="atras()" class="botao Atras">
+            <input type="button" value="=" onclick="igualdade()" class="botao Igual">
+            
+            <br>
+        <a class="anterior" href="web.html">Anterior</a>
+        </div> <!-- End flex-container-calculator -->
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+    <script src="scripts/main.js"></script>
+    <script src="scripts/calc.js"></script>
+</body>
+</html>
