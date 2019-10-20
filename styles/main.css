@@ -8,6 +8,17 @@
      box-sizing: border-box;
 }
 
+input[type=checkbox]
+{
+  -ms-transform: scale(3);
+  -moz-transform: scale(3);
+  -webkit-transform: scale(3);
+  -o-transform: scale(3); 
+  transform: scale(3);
+  align-content: center;
+  
+}
+
 .self-clear:before, .self-clear:after{
     content:"";
     display:table;
@@ -137,11 +148,12 @@ img, video, object{
 .logo{
     flex: auto;
     margin-bottom: 10px;
-    width: 110px;
+    margin-top: 13px;
+    width: 90px;
 }
 .name{
     font-size: 19.57rem;
-    margin-top: 25px;
+    margin-top: 15px;
     padding-left: 20px;
     flex: auto;   
 }
@@ -269,14 +281,19 @@ img, video, object{
     text-align: center;
 }
 
+.lista{
+    font-size: 50%;
+}
+
 .listaFilmes{
+    margin-top: 30px;
     padding: 0px 20px 30px 20px;
     justify-content: center;
 }
 
 .av{
     background-color: black;
-    bottom: 10px;
+   
     color: #1c6b02;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
@@ -337,16 +354,14 @@ img, video, object{
 }
 /*------------------------------------------------------------------------------------------------ ------------------------------------- TO DO LIST ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#contagem {
-    position: absolute;
-    bottom: 0%;
-}
-
 #myInput {
     padding: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 250px;
     background-color: rgb(219, 219, 250);
     font-family: Verdana, Tahoma, sans-serif;
-    font-size: 150%;
+    font-size: 300%;
     font-weight: bold;
     border-radius: 50px;
     margin-bottom: 30px;
@@ -357,17 +372,25 @@ img, video, object{
     padding-left: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 110%;
+    font-size: 250%;
     font-family: Verdana, Tahoma, sans-serif;
     border-radius: 50px;
     margin-bottom: 30px;
-    background-color: rgb(59, 59, 59);
+    background-color: #175303;
     color:white;
     cursor: pointer;
 }
 
+#butt:hover{
+    color:rgba(243, 243, 243, 0.856);
+    background-color: #113f02;
+    
+}
+
+
 li {
-    font-size: 160%;
+    margin-bottom: 10px;
+    font-size: 500%;
     font-family: Verdana, Tahoma, sans-serif;
     color:#ffffff;
 }
@@ -386,11 +409,12 @@ p {
     color: #1c6b02;
 }
 
+
 /*--------------------------------------------------------------------------------------------------------------------------------------------CALCULADORA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .container-calculator{
     max-width: 900px;
-    margin-left: 350px;
+    margin-left:570px;
 }
 
 .flex-container-calculator{
@@ -403,10 +427,10 @@ p {
 }
 
 .mostrador{
-    width: 50%;
-	height: 45px;
+    width: 83%;
+    height: 45px;
+    margin-left: -225px;
     text-align: right;
-    padding: 20px;
     background-color: rgb(219, 219, 250);
     font-family:'Noto Sans KR', sans-serif;
     font-size: 300%;

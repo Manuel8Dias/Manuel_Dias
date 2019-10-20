@@ -8,14 +8,13 @@
         var check = document.createElement('input');
             
         check.type = 'checkbox';
+
         tarefa.innerHTML = myInput.value; 
         
         list.appendChild(tarefa);
         list.appendChild(check);
         myInput.value = ""; 
 
-        var total = document.querySelector('li').length        
-        console.log(total);
      
         check.checked = false;
 
