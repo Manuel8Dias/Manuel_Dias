@@ -16,13 +16,16 @@
                 <img class="logo" src="../img/Sapolas.png" alt="Logo" />
             </a>
             <h1 class="name">Manuel Dias</h1>
-            <nav class="naveg">
+            <nav class="naveg"  id="myNaveg">
                 <ul class="flex-container">
                     <li><a href="../index.html" class="menu">Principal</a></li>
                     <li><a href="bio.html" class="menu">Biografia</a></li>
                     <li><a href="audivisual.html" class="menu">Audiovisual</a></li>
                     <li><a href="web.html" class="menu select">Web</a></li>
                     <li><a href="contactos.html" class="menu">Contactos</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    </li>>
                 </ul>
             </nav>
         </div> <!--end flex-container (header)-->
@@ -39,10 +42,20 @@
     
     </div> <!--end container-->
 
+    <script>
+        function myFunction() {
+        let x = document.getElementById("myNaveg");
+        if (x.className === "naveg") {
+          x.className += " responsive";
+        } else {
+          x.className = "naveg";
+        }
+      }
+    </script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="../scripts/main.js"></script>
     <script src="../scripts/todolist.js"></script>
 </body>

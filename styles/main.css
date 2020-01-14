@@ -159,6 +159,7 @@ img, video, object{
 }
 
 .naveg{
+    overflow: hidden;
     width: 100%;
     position: relative;
     text-align: center;
@@ -171,7 +172,7 @@ img, video, object{
 }
 
 .naveg li{
-    border-right: 1px solid #1c8d02;
+    /* border-right: 1px solid #1c8d02; */
 }
 
 .naveg ul li{
@@ -494,3 +495,60 @@ p {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 576px) {
+    .naveg a {
+        display: none;
+    }
+    .naveg a.icon {
+        float: right;
+        display: block;
+    }
+}
+  
+@media (max-width: 576px) {
+    .naveg.responsive {
+        position: relative;
+    }
+    .naveg.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .naveg.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
