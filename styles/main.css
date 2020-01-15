@@ -171,9 +171,9 @@ img, video, object{
     list-style: none;
 }
 
-.naveg li{
-    /* border-right: 1px solid #1c8d02; */
-}
+/* .naveg li{
+     border-right: 1px solid #1c8d02;
+} */
 
 .naveg ul li{
     padding: 5px 15px;
@@ -203,6 +203,10 @@ img, video, object{
 .naveg li a:hover {
     background-color: #9b3a3a;
     color: #c2dbbc;
+}
+
+.naveg a.icon {
+    display: none;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------BIO-INTRO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -496,16 +500,68 @@ p {
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*---Media Queries --*/
 @media (max-width: 992px) {
-  
+
+    .flex-container{
+        padding: 30px 20px 30px 20px;
+        max-width: 100%;
+    }
+
+    .logo{
+        flex: auto;
+        margin-bottom: 10px;
+        margin-top: 13px;
+        width: 80px;
+    }
+    .name{
+        font-size: 16.1rem;
+        margin-top: 20px;
+        padding-left: 20px;
+        flex: auto;   
+    }
 }
 
 @media (max-width: 768px) {
-  
+
+    .flex-container{
+        padding: 30px 20px 30px 20px;
+        max-width: 100%;
+    }
+
+    .logo{
+        flex: auto;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 70px;
+    }
+    .name{
+        font-size: 12rem;
+        margin-top: 18.2px;
+        padding-left: 20px;
+        flex: auto;   
+    }
 }
 
 @media (max-width: 576px) {
+
+    .flex-container{
+        padding: 30px 20px 30px 20px;
+        max-width: 100%;
+    }
+
+    .logo{
+        flex: auto;
+        margin-bottom: 10px;
+        margin-top: 13px;
+        width: 90px;
+    }
+    .name{
+        font-size: 19.57rem;
+        margin-top: 15px;
+        padding-left: 20px;
+        flex: auto;   
+    }
+
     .naveg a {
         display: none;
     }
@@ -513,19 +569,19 @@ p {
         float: right;
         display: block;
     }
-}
-  
-@media (max-width: 576px) {
+
     .naveg.responsive {
         position: relative;
     }
+
     .naveg.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
+
     .naveg.responsive a {
-      float: none;
+      float: left;
       display: block;
       text-align: left;
     }
@@ -533,8 +589,16 @@ p {
 
 
 
-
-
+/* @media (max-width: 576px) {
+    .naveg a {
+        display: none;
+    }
+    .naveg a.icon {
+        float: right;
+        display: block;
+    }
+} */
+  
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
