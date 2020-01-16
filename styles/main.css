@@ -159,6 +159,8 @@ img, video, object{
 }
 
 .naveg{
+    margin-top: -70px;
+    margin-bottom: -85px;
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -181,11 +183,11 @@ img, video, object{
 
 .naveg li a{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 3.7rem;
-    padding-left:5px;
-    padding-right:5px;
+    font-size: 3.3rem;
+    padding-left:3px;
+    padding-right:2px;
     color:#1c8d02;
-    margin-right: 3px;
+    margin-right: 2px;
     text-decoration: none;
     text-transform: uppercase;
     outline: none;
@@ -519,6 +521,27 @@ p {
         padding-left: 20px;
         flex: auto;   
     }
+
+    .verMais{
+        font-size:2rem;  
+    }
+
+    .naveg{
+        margin-top: -70px;
+        margin-bottom: -85px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .naveg li a{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 3.3rem;
+        padding-left:3px;
+        padding-right:2px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -540,6 +563,27 @@ p {
         padding-left: 20px;
         flex: auto;   
     }
+
+    .verMais{
+        font-size:1.6rem;  
+    }
+
+    .naveg{
+        margin-top: -55px;
+        margin-bottom: -70px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .naveg li a{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 3.3rem;
+        padding-left:3px;
+        padding-right:2px;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -561,6 +605,16 @@ p {
         padding-left: 20px;
         flex: auto;   
     }
+
+    .naveg{
+        margin-top: -70px;
+        margin-bottom: -85px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+   
 
     .naveg a {
         display: none;
@@ -585,20 +639,20 @@ p {
       display: block;
       text-align: left;
     }
+
+    .naveg li a{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 3.3rem;
+        padding-left:3px;
+        padding-right:2px;
+    }
+
+    .verMais{
+        font-size:1.2rem;  
+    }
 }
 
 
-
-/* @media (max-width: 576px) {
-    .naveg a {
-        display: none;
-    }
-    .naveg a.icon {
-        float: right;
-        display: block;
-    }
-} */
-  
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
