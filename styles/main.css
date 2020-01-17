@@ -553,7 +553,7 @@ p {
 @media (max-width: 768px) {
 
     .flex-container{
-        padding: 30px 20px 30px 20px;
+        padding: 30px 20px 15px 20px;
         max-width: 100%;
     }
 
@@ -561,7 +561,7 @@ p {
         flex: auto;
         margin-bottom: 10px;
         margin-top: 13px;
-        width: 80px;
+        width: 75px;
     }
     .name{
         font-size: 15.5rem;
@@ -569,13 +569,14 @@ p {
         padding-left: 20px;
         flex: auto;   
     }
+
     .verMais{
-        font-size:1.6rem;  
+        font-size:2rem;  
     }
 
     .naveg{
-        margin-top: -55px;
-        margin-bottom: -70px;
+        margin-top: -70px;
+        margin-bottom: -85px;
         overflow: hidden;
         width: 100%;
         position: relative;
@@ -584,10 +585,10 @@ p {
 
     .naveg li a{
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 3.3rem;
+        font-size: 2.8rem;
         padding-left:3px;
         padding-right:2px;
-    }
+    }   
     
 }
 
