@@ -64,14 +64,14 @@ h3{
 h4{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #fff;
 }
 
 h5{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
 }
 
@@ -168,7 +168,7 @@ img, video, object{
 }
 
 .naveg ul{
-    padding: 0px 20px 30px 20px;
+    padding: 0px 20px 15px 20px;
     justify-content: center;
     list-style: none;
 }
@@ -215,7 +215,7 @@ img, video, object{
 
 .bioIntro{
     flex: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -301,6 +301,12 @@ img, video, object{
     height: auto;  
     margin: auto;
     text-align: center;
+}
+
+.meusTrabalhos{
+    font-size: 280%;
+    font-weight: bold;
+    color:#adadad
 }
 
 .lista{
@@ -505,7 +511,7 @@ p {
 @media (max-width: 992px) {
 
     .flex-container{
-        padding: 30px 20px 30px 20px;
+        padding: 30px 20px 15px 20px;
         max-width: 100%;
     }
 
@@ -513,10 +519,10 @@ p {
         flex: auto;
         margin-bottom: 10px;
         margin-top: 13px;
-        width: 80px;
+        width: 75px;
     }
     .name{
-        font-size: 16.1rem;
+        font-size: 15.5rem;
         margin-top: 20px;
         padding-left: 20px;
         flex: auto;   
@@ -537,7 +543,7 @@ p {
 
     .naveg li a{
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 3.3rem;
+        font-size: 2.8rem;
         padding-left:3px;
         padding-right:2px;
     }
@@ -554,16 +560,15 @@ p {
     .logo{
         flex: auto;
         margin-bottom: 10px;
-        margin-top: 5px;
-        width: 70px;
+        margin-top: 13px;
+        width: 80px;
     }
     .name{
-        font-size: 12rem;
-        margin-top: 18.2px;
+        font-size: 15.5rem;
+        margin-top: 20px;
         padding-left: 20px;
         flex: auto;   
     }
-
     .verMais{
         font-size:1.6rem;  
     }
