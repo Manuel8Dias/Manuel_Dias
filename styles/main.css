@@ -88,8 +88,8 @@ p{
 }
 
 .container{
-    padding: 30px 20px 30px 20px;
-    max-width: 1200px;
+    padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -102,8 +102,8 @@ img, video, object{
     display: flex;
     flex-flow: row wrap;
 
-    padding: 30px 20px 30px 20px;
-    max-width: 1200px;
+    padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+    max-width:120rem;
     margin: 0 auto;
 }
 
@@ -147,20 +147,20 @@ img, video, object{
 
 .logo{
     flex: auto;
-    margin-bottom: 10px;
-    margin-top: 13px;
-    width: 90px;
+    margin-bottom: 0.625rem;
+    margin-top: 0.8125rem;
+    width: 8.9rem;
 }
 .name{
     font-size: 19.57rem;
-    margin-top: 15px;
-    padding-left: 20px;
+    margin-top: 0.9375rem;
+    padding-left: 1.25rem;
     flex: auto;   
 }
 
 .naveg{
-    margin-top: -70px;
-    margin-bottom: -85px;
+    margin-top: -7rem;
+    margin-bottom: -5.3125rem;
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -168,14 +168,10 @@ img, video, object{
 }
 
 .naveg ul{
-    padding: 0px 20px 15px 20px;
+    padding: 0rem 1.25rem 0.9375rem 1.25rem;
     justify-content: center;
     list-style: none;
 }
-
-/* .naveg li{
-     border-right: 1px solid #1c8d02;
-} */
 
 .naveg ul li{
     padding: 5px 15px;
@@ -187,7 +183,7 @@ img, video, object{
     padding-left:3px;
     padding-right:2px;
     color:#1c8d02;
-    margin-right: 2px;
+    margin-right: 0.125rem;
     text-decoration: none;
     text-transform: uppercase;
     outline: none;
@@ -215,7 +211,7 @@ img, video, object{
 
 .bioIntro{
     flex: auto;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     text-align: center;
 }
 
@@ -257,7 +253,7 @@ img, video, object{
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------BIOGRAFIA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .container-bio{
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
 }
 
@@ -293,14 +289,14 @@ img, video, object{
 
 .texto {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size:2rem ;
+    font-size: 2rem;
     background:  black;
     color: #fff;
 } 
 
 .texto p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size:3rem ;
+    font-size: 3rem;
     background:  black;
     color: #fff;
 }
@@ -308,7 +304,7 @@ img, video, object{
 /*------------------------------------------------------------------------------------------------------------------------------------------AUDIOVISUAL----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #filme{
-    width: 600px;
+    width: 70.5rem;
     height: auto;  
     margin: auto;
     text-align: center;
@@ -325,8 +321,8 @@ img, video, object{
 }
 
 .listaFilmes{
-    margin-top: 30px;
-    padding: 0px 20px 30px 20px;
+    margin-top: 1.875rem;
+    padding: 0rem 1.25rem 1.875rem 1.25rem;
     justify-content: center;
 }
 
@@ -408,8 +404,8 @@ img, video, object{
 }
 
 #butt {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
     padding-bottom: 5px;
     padding-top: 5px;
     font-size: 250%;
@@ -429,7 +425,7 @@ img, video, object{
 
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-size: 500%;
     font-family: Verdana, Tahoma, sans-serif;
     color:#ffffff;
@@ -453,8 +449,9 @@ p {
 /*--------------------------------------------------------------------------------------------------------------------------------------------CALCULADORA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .container-calculator{
-    max-width: 900px;
-    margin-left:570px;
+    max-width: 100%;
+    margin-left:57rem;
+    
 }
 
 .flex-container-calculator{
@@ -467,9 +464,9 @@ p {
 }
 
 .mostrador{
-    width: 83%;
-    height: 45px;
-    margin-left: -225px;
+    width: 65rem;
+    height: 5rem;
+    margin-left: -22.5rem;
     text-align: right;
     background-color: rgb(219, 219, 250);
     font-family:'Noto Sans KR', sans-serif;
@@ -489,7 +486,7 @@ p {
     color: #1e7700;
 }
 .botao{
-	height: 60px;
+	height: 6rem;
 	box-sizing: border-box;
     background-color: #175a00;
     bottom: 10px;
@@ -502,7 +499,7 @@ p {
     border-radius: 2%;
 
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     flex: 30%;
     border: none;
 }
@@ -522,151 +519,219 @@ p {
 @media (max-width: 992px) {
 
     .flex-container{
-        padding: 30px 20px 15px 20px;
-        max-width: 100%;
+        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+        max-width:120rem;
     }
 
     .logo{
         flex: auto;
-        margin-bottom: 10px;
-        margin-top: 13px;
-        width: 75px;
+        margin-bottom: 0.625rem;
+        margin-top: 0.8125rem;
+        width: 7.5rem;
     }
     .name{
-        font-size: 15.5rem;
-        margin-top: 20px;
-        padding-left: 20px;
+        font-size: 16rem;
+        margin-top: 0.9375rem;
+        padding-left: 1.25rem;
         flex: auto;   
     }
-
-    .verMais{
-        font-size:2rem;  
-    }
-
+    
     .naveg{
-        margin-top: -70px;
-        margin-bottom: -85px;
+        margin-top: -7rem;
+        margin-bottom: -5.3125rem;
         overflow: hidden;
         width: 100%;
         position: relative;
         text-align: center;
     }
-
+    
     .naveg li a{
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 2.8rem;
-        padding-left:3px;
-        padding-right:2px;
+        font-size: 3rem;
+        padding-left:2px;
+        padding-right:1px;
+        color:#1c8d02;
+        margin-right: 0.125rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        outline: none;
     }
+    
+    .verMais{
+        font-size:2rem;
+        padding:2px;
+        margin-top: 7px;    
+        margin-left: 90%;
+        border-radius:6%;   
+    }
+    
+    .mostrador{
+        width: 65rem;
+        height: 5rem;
+        margin-left: -22.5rem;
+        text-align: right;
+        background-color: rgb(219, 219, 250);
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 300%;
+        font-weight: bold;
+        border:none;
+    }
+    
     
 }
 
 @media (max-width: 768px) {
 
     .flex-container{
-        padding: 30px 20px 15px 20px;
-        max-width: 100%;
+        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+        max-width:120rem;
     }
 
     .logo{
         flex: auto;
-        margin-bottom: 10px;
-        margin-top: 13px;
-        width: 75px;
+        margin-bottom: 0.625rem;
+        margin-top: 0.8125rem;
+        width: 6rem;
     }
     .name{
-        font-size: 15.5rem;
-        margin-top: 20px;
-        padding-left: 20px;
+        font-size: 12rem;
+        margin-top: 0.9375rem;
+        padding-left: 1.25rem;
         flex: auto;   
     }
-
-    .verMais{
-        font-size:2rem;  
-    }
-
+    
     .naveg{
-        margin-top: -70px;
-        margin-bottom: -85px;
+        margin-top: -6.2rem;
+        margin-bottom: -5.3125rem;
         overflow: hidden;
         width: 100%;
         position: relative;
         text-align: center;
     }
 
+    .naveg li{
+        margin-bottom: -3rem;
+   }
+    
     .naveg li a{
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 2.8rem;
-        padding-left:3px;
-        padding-right:2px;
-    }   
+        font-size: 3rem;
+        padding-left:2px;
+        padding-right:1px;
+        color:#1c8d02;
+        margin-right: 0.125rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    .bioIntro{
+        padding-top: 5rem;
+    }
+    
+    .verMais{
+        font-size:1.7rem;
+        padding:2px;
+        margin-top: 7px;    
+        margin-left: 90%;
+        border-radius:6%;   
+    }
+    
+    .mostrador{
+        width: 65rem;
+        height: 5rem;
+        margin-left: -22.5rem;
+        text-align: right;
+        background-color: rgb(219, 219, 250);
+        font-family:'Noto Sans KR', sans-serif;
+        font-size: 300%;
+        font-weight: bold;
+        border:none;
+    }
     
 }
 
 @media (max-width: 576px) {
 
     .flex-container{
-        padding: 30px 20px 30px 20px;
-        max-width: 100%;
+        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+        max-width:120rem;
+    }
+
+    h4{
+        font-size: 3.5rem;
+    }
+    
+    h5{
+        font-size: 2.5rem;
     }
 
     .logo{
         flex: auto;
-        margin-bottom: 10px;
-        margin-top: 13px;
-        width: 90px;
+        margin-bottom: 0.625rem;
+        margin-top: 0.8125rem;
+        width: 4.4rem;
     }
     .name{
-        font-size: 19.57rem;
-        margin-top: 15px;
-        padding-left: 20px;
+        font-size: 8.7rem;
+        margin-top: 0.9375rem;
+        padding-left: 1.25rem;
         flex: auto;   
     }
-
+    
     .naveg{
-        margin-top: -70px;
-        margin-bottom: -85px;
+        margin-top: -5.5rem;
+        margin-bottom: -5.3125rem;
         overflow: hidden;
         width: 100%;
         position: relative;
         text-align: center;
     }
-   
 
-    .naveg a {
-        display: none;
-    }
-    .naveg a.icon {
-        float: right;
-        display: block;
-    }
-
-    .naveg.responsive {
-        position: relative;
-    }
-
-    .naveg.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    .naveg.responsive a {
-      float: left;
-      display: block;
-      text-align: left;
-    }
-
+    .naveg li{
+        margin-bottom: -4.5rem;
+   }
+    
     .naveg li a{
         font-family: 'Noto Sans KR', sans-serif;
-        font-size: 3.3rem;
-        padding-left:3px;
-        padding-right:2px;
+        font-size: 2.5rem;
+        padding-left:2px;
+        padding-right:1px;
+        color:#1c8d02;
+        margin-right: 0.125rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        outline: none;
     }
 
-    .verMais{
-        font-size:1.2rem;  
+    .bioIntro{
+        padding-top: 5rem;
     }
+    
+    .verMais{
+        font-size:1.2rem;
+        padding:2px;
+        margin-top: 7px;    
+        margin-left: 90%;
+        border-radius:6%;   
+    }
+    
+
+    /* #resposta{
+        background-color: #1c4e02;
+    } */
+
+    .mostrador{
+    width: 50rem;
+    height: 5rem;
+    margin-left: -52.5rem;
+    text-align: right;
+    background-color: rgb(219, 219, 250);
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    border:none;
+}
 }
 
 
