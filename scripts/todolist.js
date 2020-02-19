@@ -13,6 +13,7 @@
         
         list.appendChild(tarefa);
         list.appendChild(check);
+    
         myInput.value = ""; 
 
      

@@ -391,10 +391,13 @@ img, video, object{
 /*------------------------------------------------------------------------------------------------ ------------------------------------- TO DO LIST ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #myInput {
-    padding: 20px;
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-left: 250px;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 28rem;
+    margin-bottom: 1.5rem;
     background-color: rgb(219, 219, 250);
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 300%;
@@ -423,7 +426,6 @@ img, video, object{
     
 }
 
-
 li {
     margin-bottom: 0.625rem;
     font-size: 500%;
@@ -445,6 +447,12 @@ p {
     color: #1c6b02;
 }
 
+#list {
+    margin-top: -8rem;
+    font-size: 1.8rem;
+    text-align: center;
+    transform: scale(0.5);
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------CALCULADORA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -546,23 +554,36 @@ p {
     }
     
     .naveg li a{
-        font-family: 'Noto Sans KR', sans-serif;
+     
         font-size: 3rem;
         padding-left:2px;
         padding-right:1px;
-        color:#1c8d02;
         margin-right: 0.125rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        outline: none;
     }
     
     .verMais{
         font-size:2rem;
         padding:2px;
         margin-top: 7px;    
-        margin-left: 90%;
-        border-radius:6%;   
+        margin-left: 90%; 
+    }
+
+    .listatarefas {
+        font-size: 8rem;
+    }
+
+    #myInput {
+        font-size: 300%;
+        margin-left: 150px;
+    }
+    
+    #butt {
+        font-size: 200%;
+    }
+
+    li {
+        font-size: 300%;
+
     }
     
     .mostrador{
@@ -637,6 +658,17 @@ p {
         border-radius:6%;   
     }
     
+    .trabalhosWeb{
+        font-size: 6rem;
+        margin-top: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .traballho{
+        font-size: 3.8rem;
+        margin-bottom: 1rem;
+    }
+
     .mostrador{
         width: 65rem;
         height: 5rem;
@@ -680,28 +712,23 @@ p {
     }
     
     .naveg{
-        margin-top: -5.5rem;
+        margin-top: -6.2rem;
         margin-bottom: -5.3125rem;
-        overflow: hidden;
         width: 100%;
         position: relative;
         text-align: center;
     }
 
     .naveg li{
-        margin-bottom: -4.5rem;
+        margin-top: 2.5rem;
+        
    }
     
     .naveg li a{
-        font-family: 'Noto Sans KR', sans-serif;
         font-size: 2.5rem;
         padding-left:2px;
         padding-right:1px;
-        color:#1c8d02;
         margin-right: 0.125rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        outline: none;
     }
 
     .bioIntro{
@@ -709,29 +736,174 @@ p {
     }
     
     .verMais{
-        font-size:1.2rem;
+        font-size:2rem;
         padding:2px;
         margin-top: 7px;    
-        margin-left: 90%;
+        margin-left: 83%;
         border-radius:6%;   
     }
+
+    .container-bio{
+        max-width: 75rem;
+    }
     
+    .arrow {
+        width: 0rem;
+        height: 0rem;
+        border-width: 0 0.4rem 0.4rem 0;
+        padding: 0.8rem;
+        margin-bottom: 0.5rem;
+        margin-left:0.5rem;
+    }
+    
+    .item{
+        margin-top:3rem;
+        margin-bottom: -3rem;
+        padding: 0.4rem;
+    }
+    
+    .itemTitle{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    
+    .texto {
+        font-size: 1rem;
+    } 
+    
+    .texto p{
+        font-size: 2rem;
+    }
+
+    #filme{
+        margin-top: 5rem;
+    }
+    
+    .trabalhosWeb{
+        font-size: 4.5rem;
+        margin-top: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .traballho{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .listatarefas {
+        margin: auto;
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    #myInput {
+        font-size: 250%;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        margin-left: 7.5rem;
+        border-radius: 50px;
+        margin-bottom: 1.5rem;
+    }
+    
+    #butt {
+        padding-right: 0.625rem;
+        padding-left: 0.625rem;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 150%;
+        border-radius: 50px;
+        margin-bottom: 30px;
+    }
+
+    .Lista {
+        font-size:130%;
+        text-align: center;
+        padding:0.5rem;
+        margin-top: 1rem;    
+        margin-left: 80%;
+        border-radius:4%;
+    }
+
+    li {
+        margin-bottom: 0.625rem;
+        font-size: 250%;
+    }
+    
+    #list {
+        margin-top: -10rem;
+        font-size: 4rem;
+        text-align: center;
+        transform: scale(0.4);
+    }
+
+    .listatarefas {
+        margin-top: 3rem;
+        font-size: 5rem;
+    }
 
     /* #resposta{
         background-color: #1c4e02;
     } */
 
+    .container-calculator{
+      margin-top: 5rem;
+      margin-left:8rem;
+      max-width: 50%;
+    }
+
     .mostrador{
-    width: 50rem;
-    height: 5rem;
-    margin-left: -52.5rem;
-    text-align: right;
-    background-color: rgb(219, 219, 250);
-    font-family:'Noto Sans KR', sans-serif;
-    font-size: 300%;
-    font-weight: bold;
-    border:none;
+        width: 48.5rem;
+        height: 4rem;
+        margin-left: -5.7rem;
+        font-size: 270%;
+    }
+
+    .botao{
+	    height: 3.8rem;
+	    box-sizing: border-box;
+        bottom: 10px;
+        text-align: center;
+        font-size: 3rem;
+        margin-right: 10px;
+        margin-bottom: 0.625rem;
+        flex: 25%;
 }
+
+    .Apagar {
+        font-size: 2.3rem;
+    }
+
+    .Parenteses{
+        font-size: 2.3rem;
+    }
+
+    .Calc {
+        font-size: 180%;
+        text-align: center;
+        padding:0.5rem;
+        margin-top: 1rem;    
+        margin-left: 80%;
+        border-radius:4%;
+    }
+
+    .contactos{
+        margin: auto;
+        margin-top: 4rem;
+        font-size: 3rem;
+    }
+    
+    .info{
+        margin-bottom: 20px;
+        margin-left: 100px;
+        font-size: 2.5rem;
+    }
+    
+    .redes{
+        margin: 1rem;
+        margin-top:-8rem;
+        width: 9%;
+    }
 }
 
 
