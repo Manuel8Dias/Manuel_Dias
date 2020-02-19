@@ -890,6 +890,7 @@ p {
     .contactos{
         margin: auto;
         margin-top: 4rem;
+        margin-bottom: -3.5rem;
         font-size: 3rem;
     }
     
