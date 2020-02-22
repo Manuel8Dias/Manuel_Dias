@@ -33,6 +33,8 @@ input[type=checkbox]
 }
 
 html{
+    height: 100%;
+    width: 100%;
     font-size: 62.5%;
     font-family: Arial, sans-serif;
 }
@@ -88,7 +90,7 @@ p{
 }
 
 .container{
-    padding: 1.875rem 1.25rem 1.875rem 1.25rem;
+    /* padding: 1.875rem 1.25rem 1.875rem 1.25rem; */
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -111,8 +113,8 @@ img, video, object{
     display: block;
     font-size:2.5rem;
     text-align: center;
-    padding:2px;
-    margin-top: 7px;    
+    padding: 0.2rem;
+    margin-top: 1rem;    
     margin-left: 90%;
     border-radius:6%;
     color:black;
@@ -129,8 +131,8 @@ img, video, object{
     display: block;
     font-size:2.5rem;
     text-align: center;
-    padding:2px;
-    margin-top: 7px;    
+    padding:0.2rem;
+    margin-top: 1rem;    
     margin-left: 90%;
     border-radius:6%;
     color:black;
@@ -174,14 +176,14 @@ img, video, object{
 }
 
 .naveg ul li{
-    padding: 5px 15px;
+    padding: 0.2rem 1rem;
 }
 
 .naveg li a{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 3.3rem;
-    padding-left:3px;
-    padding-right:2px;
+    padding-left: 0.8rem;
+    padding-right: 0.3rem;
     color:#1c8d02;
     margin-right: 0.125rem;
     text-decoration: none;
@@ -217,7 +219,7 @@ img, video, object{
 
 .bioIntro h4{
     color: #deeed9;
-    text-shadow: 2px 2px rgb(0, 0, 0), 3px 3px rgb(55, 99, 35);    
+    text-shadow: 0.22rem 0.22rem rgb(0, 0, 0), 0.3rem 0.3rem rgb(55, 99, 35);    
 }
 
 .idade{
@@ -231,7 +233,7 @@ img, video, object{
 
 .audivisualIntro{
     flex: auto;
-    padding-top: 20px;
+    padding-top: 1.3rem;
     text-align: center;
 }
 
@@ -377,8 +379,8 @@ img, video, object{
 
 .info{
     color: #fff;
-    margin-bottom: 20px;
-    margin-left: 100px;
+    margin-bottom: 1.2rem;
+    margin-left: 11rem;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 4rem;
 }
@@ -410,8 +412,8 @@ img, video, object{
 #butt {
     padding-right: 0.625rem;
     padding-left: 0.625rem;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
     font-size: 250%;
     font-family: Verdana, Tahoma, sans-serif;
     border-radius: 50px;
@@ -444,7 +446,7 @@ li {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #1c6b02;
 }
 
@@ -467,8 +469,8 @@ p {
     display: flex;
     flex-flow: row wrap;
 
-    padding: 30px 20px 30px 20px;
-    max-width: 700px;
+    padding: 2rem 1.6rem 2rem 1.6rem;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
@@ -485,13 +487,13 @@ p {
 }
 
 #input{
-    border-radius: 20px 20px 0px 0px;
-    box-shadow: 2px 2px 2px #c2dbbc;
+    border-radius: 1.4rem 1.4rem 0px 0px;
+    box-shadow: 0.2rem 0.2rem 0.2rem #c2dbbc;
 }
 
 #resposta{
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 2px 2px 2px #c2dbbc;
+    border-radius: 0px 0px 1.4rem 1.4rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #c2dbbc;
     color: #1e7700;
 }
 .botao{
@@ -507,7 +509,7 @@ p {
     text-decoration: none;
     border-radius: 2%;
 
-    margin-right: 10px;
+    margin-right: 0.9rem;
     margin-bottom: 0.625rem;
     flex: 30%;
     border: none;
@@ -516,7 +518,7 @@ p {
 .botao:hover {
     background-color: #771313;
     color: #c2dbbc;
-    box-shadow: 2px 2px hsla(0, 72%, 27%, 0.5);
+    box-shadow: 0.2rem 0.2rem hsla(0, 72%, 27%, 0.5);
 }
 
 .botao:active {
@@ -524,131 +526,67 @@ p {
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------- RESPONSIVE ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-@media (max-width: 992px) {
-
-    .flex-container{
-        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
-        max-width:120rem;
-    }
-
-    .logo{
-        flex: auto;
-        margin-bottom: 0.625rem;
-        margin-top: 0.8125rem;
-        width: 7.5rem;
-    }
-    .name{
-        font-size: 16rem;
-        margin-top: 0.9375rem;
-        padding-left: 1.25rem;
-        flex: auto;   
-    }
-    
-    .naveg{
-        margin-top: -5rem;
-        margin-bottom: -5.3125rem;
-        overflow: hidden;
-        width: 100%;
-        position: relative;
-        text-align: center;
-    }
-    
-    .naveg li a{
-        font-size: 3rem;
-        padding-left:2px;
-        padding-right:1px;
-        margin-right: 0.125rem;
-    }
-    
-    .verMais{
-        font-size:2rem;
-        padding:2px;
-        margin-top: 7px;    
-        margin-left: 90%; 
-    }
-
-    .listatarefas {
-        font-size: 8rem;
-    }
-
-    #myInput {
-        font-size: 300%;
-        margin-left: 150px;
-    }
-    
-    #butt {
-        font-size: 200%;
-    }
-
-    li {
-        font-size: 300%;
-    }
-    
-    .mostrador{
-        width: 65rem;
-        height: 5rem;
-        margin-left: -22.5rem;
-        font-size: 300%;
-    }  
-}
-
-@media (max-width: 768px) {
-    .flex-container{
-        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
-        max-width:120rem;
-    }
+@media screen and (max-width: 1024px) {
 
     h4{
-        font-weight: 700;
-        font-size: 4rem;
+        font-size: 5rem;
     }
     
     h5{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     
     h6{
         font-size: 3rem;
     }
+    
+    p{
+        font-size: 2rem;
+    }
+
+    .verMais{
+        font-size:2.5rem;
+        padding: 0.2rem;
+        margin-top: 1rem;    
+        margin-left: 88%;  
+    }
 
     .logo{
-        flex: auto;
         margin-bottom: 0.625rem;
         margin-top: 0.8125rem;
-        width: 6rem;
+        width: 8.4rem;
     }
+
     .name{
-        font-size: 12rem;
-        margin-top: 0.9375rem;
+        font-size: 16.8rem;
+        margin-top: 1.5rem;
         padding-left: 1.25rem;
-        flex: auto;   
     }
     
     .naveg{
-        margin-top: -4rem;
+        margin-top: -5rem;
         margin-bottom: -5.3125rem;
-        overflow: hidden;
-        width: 100%;
-        position: relative;
-        text-align: center;
     }
-
-    .naveg li{
-        margin-bottom: -1.5rem;
-   }
+    
+    .naveg ul li{
+        padding: 0.2rem 1rem;
+    }
     
     .naveg li a{
-        font-size: 3.4rem;
-        padding-left:2px;
-        padding-right:1px;
+        font-size: 3.3rem;
+        padding-left: 0.8rem;
+        padding-right: 0.3rem;
         margin-right: 0.125rem;
     }
-
+    
     .bioIntro{
-        padding-top: 5rem;
+        padding-top: 0.625rem;
     }
-
+    
+    .bioIntro h4{
+        text-shadow: 0.22rem 0.22rem rgb(0, 0, 0), 0.3rem 0.3rem rgb(55, 99, 35);    
+    }
+    
     .idade{
         font-size: 3rem;
     }
@@ -656,188 +594,158 @@ p {
     .audivisualIntro{
         padding-top: 30px;
     }
-    
-    .carousel-inner{
-        width: 85%;
-        height: 85%;
-    }
-    
+
     .logos{
-        margin-top: 2rem;
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
+        padding-top: 20px;
     }
-
-    .verMais{
-        font-size:1.7rem;
-        padding:2px;
-        margin-top: 7px;    
-        margin-left: 90%;
-        border-radius:6%;   
-    }
-
+    
     .container-bio{
         max-width: 75rem;
-        margin: auto;
-        margin-top: 8rem;
+
     }
     
     .arrow {
         width: 0rem;
         height: 0rem;
-        border-width: 0 0.8rem 0.8rem 0;
-        padding: 0.85rem;
-        margin-bottom: 1.5rem;
-        margin-left:1rem;
+        border-width: 0 0.4rem 0.4rem 0;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left:0.5rem;
     }
     
     .item{
-        margin-top: 2rem;
-        margin-bottom: -2.5rem;
-        padding: 0.7rem;
+        margin-top:-2rem;
+        margin-bottom: 1.5rem;
+        padding: 0.4rem;
     }
     
     .itemTitle{
-        font-size: 3.5rem;
+        font-size: 2.5srem;
     }
     
-    .texto {
-        font-size: 2rem;
-    } 
-    
     .texto p{
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 
     #filme{
-        width: 70.5rem;
-        height: auto;  
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     
     .meusTrabalhos{
-        font-size: 350%;
+        font-size: 200%;
     }
     
     .lista{
-        font-size: 50%;
+        font-size: 30%;
     }
     
     .listaFilmes{
-        margin-top: 1.875rem;
-        padding: 0rem 1.25rem 1.875rem 1.25rem;
-        justify-content: center;
-    }
-
-    .av{
-        font-size: 3rem;
-    }
-    
-    .contactos{
-        margin: auto;
         margin-top: 2rem;
-        font-size: 4rem;
     }
     
-    .info{
-        margin-bottom: 20px;
-        margin-left: 100px;
-        font-size: 3rem;
-    }
-    
-    .redes{
-        margin: 1rem;
-        width: 9%;
-        margin-top: -6rem;
-        margin-bottom: 2rem;
+    .av{
+        font-size: 1.7rem;
     }
 
     .trabalhosWeb{
-        margin-top: 3rem;
-        font-size: 6rem;
-        margin-bottom: 10px;
+        font-size: 7rem;
+        margin-bottom: 25px;
     }
-    
+
     .traballho{
-        font-size: 3.7rem;
-        margin-bottom: 15px;;
+        font-size: 4rem;
+        margin-bottom: 15px;
     }
-    
+
+    .listatarefas {
+        margin-top: -3rem;
+        font-size: 3rem;
+        margin-bottom: -1rem;
+    }
+
+    .Lista {
+        font-size:2.5rem;
+        padding: 0.2rem;
+        margin-top: 3rem;    
+        margin-left: 88%;  
+    }
+
     #myInput {
         padding: 1rem;
-        margin-top: 1rem;
+        margin: auto;
+        margin-top: 2rem;
         margin-right: 1rem;
-        margin-left: 14rem;
-        margin-bottom: 0.5rem;
+        margin-left: 22rem;
+        margin-bottom: 1.5rem;
         font-size: 300%;
-        margin-bottom: 30px;
     }
     
     #butt {
         padding-right: 0.625rem;
         padding-left: 0.625rem;
-        padding-bottom: 2px;
-        padding-top: 2px;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
         font-size: 250%;
-        border-radius: 50px;
-        margin-bottom: 1rem;
     }
     
     li {
-        margin-bottom: 0.7rem;
-        font-size: 400%;
+        margin-bottom: 0.625rem;
+        font-size: 450%;
     }
     
     .listatarefas {
-        margin: auto;
-        margin-top: 2.5rem;
-        font-size: 6rem;
+        margin-top:3rem;
+        font-size: 7rem;
     }
     
     p {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
     
     #list {
-        margin-top: -9.5rem;
+        margin-top: -8rem;
         font-size: 1.8rem;
+        text-align: center;
         transform: scale(0.5);
     }
 
-    .Lista {
-        font-size:230%;
-        padding:0.2rem;
-        margin-top: 1rem;    
-        margin-left: 85%;  
-    }
-
-    /* #resposta{
-        background-color: #1c4e02;
-    } */
-
     .container-calculator{
-        max-width: 200%;
-        margin-top: 5rem;
-        margin-left:35rem; 
-    }
+        max-width: 100%;
+        margin-left:57rem;
         
+    }
+    
+    .flex-container-calculator{
+        padding: 2rem 1.6rem 2rem 1.6rem;
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+    
     .mostrador{
         width: 65rem;
-        height: 4.5rem;
-        margin-right: 30rem;
-        margin-left: -30rem;
+        height: 5rem;
+        margin-left: -39rem;
         font-size: 300%;
+        margin-top: 3rem;
     }
-        
+
+    #input{
+        border-radius: 1.4rem 1.4rem 0px 0px;
+    }
+    
+    #resposta{
+        border-radius: 0px 0px 1.4rem 1.4rem;
+        margin-top: -0.5rem;
+
+    }
     .botao{
         height: 6rem;
-        box-sizing: border-box;
         bottom: 10px;
-        font-size: 3.5rem;
-        border-radius: 2%;
-        margin-right: 10px;
+        font-size: 3.5rem;    
+        margin-right: 0.9rem;
         margin-bottom: 0.625rem;
-        border: none;
     }
 
     .Apagar {
@@ -849,201 +757,257 @@ p {
     }
 
     .Calc {
-        font-size: 230%;
+        font-size: 200%;
         padding:0.5rem;
         margin-top: 1rem;    
-        margin-left: 85%;
+        margin-left: 86.5%;
+    }
+
+    .contactos{
+        margin: auto;
+        font-size: 5rem;
     }
     
+    .info{
+        margin-bottom: 1.2rem;
+        margin-left: 11rem;
+        font-size: 4rem;
+    }
+    
+    .redes{
+        align-content: center;
+        margin: 1rem;
+        width: 7%;
+        transition: none;
+    }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 768px) { 
+}
 
-    .flex-container{
-        padding: 1.875rem 1.25rem 1.875rem 1.25rem;
-        max-width:120rem;
-    }
+@media screen and (max-width: 414px) {
+}
 
+@media screen and (max-width: 375px) {    
+}
+
+@media screen and (max-width: 320px) {
     h4{
         font-size: 3rem;
-        margin-top: -1rem;
     }
     
     h5{
         font-size: 2rem;
-        margin-top: -1.5rem;
+    }
+    
+    h6{
+        font-size: 1rem;
+    }
+    
+    p{
+        font-size: 0.5rem;
+    }
+
+    .verMais{
+        font-size:1.5rem;
+        padding: 0.2rem;
+        margin-top: 1rem;    
+        margin-left: 75%;  
     }
 
     .logo{
         margin-bottom: 0.625rem;
-        margin-top: 0.8125rem;
-        width: 4.4rem;
+        margin-top: 1.2rem;
+        width: 2.5rem;
     }
+
     .name{
-        font-size: 8.7rem;
-        margin-top: 0.9375rem;
-        padding-left: 1.25rem; 
+        font-size: 5rem;
+        margin-top: 1.5rem;
+        padding-left: 0rem;
     }
     
     .naveg{
-        margin-top: -5rem;
-        margin-bottom: 1rem;
-        width: 100%;
+        margin-top: -3rem;
+        margin-bottom: -2rem;
     }
-
-    .naveg li{
-        margin-top: 2rem;
-   }
+    
+    .naveg ul li{
+        padding: 0.2rem 1rem;
+        margin-bottom: -0rem;
+    }
     
     .naveg li a{
-        font-size: 2.5rem;
-        padding-left:2px;
-        padding-right:1px;
+        font-size: 2.8rem;
+        padding-left: 0.8rem;
+        padding-right: 0.3rem;
         margin-right: 0.125rem;
     }
-
+    
     .bioIntro{
-        margin-top: -2rem;
+        padding-top: 0.625rem;
+    }
+    
+    .bioIntro h4{
+        text-shadow: 0.22rem 0.22rem rgb(0, 0, 0), 0.3rem 0.3rem rgb(55, 99, 35);
+        margin-bottom: -1rem;    
+    }
+    
+    .idade{
+        font-size: 3rem;
+    }
+
+    .audivisualIntro{
+        padding-top: 1rem;
+    }
+
+    .logos{
+        width: 90%;
+        height: 90%;
         padding-top: 1rem;
     }
     
-    .verMais{
-        font-size:1.7rem;
-        padding:1px;
-        margin-top: 7px;    
-        margin-left: 83%;
-        border-radius:4%;   
-    }
-
     .container-bio{
         max-width: 75rem;
     }
-
-    .Informacao{
-        margin-top: -5rem;
-    }    
+    
     .arrow {
         width: 0rem;
         height: 0rem;
-        border-width: 0 0.4rem 0.4rem 0;
+        border-width: 0 0.6rem 0.6rem 0;
         padding: 0.8rem;
         margin-bottom: 0.5rem;
         margin-left:0.5rem;
     }
     
     .item{
-        margin-top:3rem;
-        margin-bottom: -2.5rem;
+        margin-top:-1rem;
+        margin-bottom: 1rem;
         padding: 0.4rem;
     }
     
     .itemTitle{
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
     
-    .texto {
-        font-size: 1rem;
-    } 
-    
     .texto p{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #filme{
-        margin-top: -3rem;
+        margin-top: 1rem;
     }
-
+    
     .meusTrabalhos{
-        font-size: 260%;
+        font-size: 200%;
     }
-
+    
     .lista{
-        font-size: 50%;
+        font-size: 30%;
     }
     
     .listaFilmes{
-        margin-top: 2rem;
+        margin-top: 1.8rem;
     }
     
     .av{
         font-size: 1.8rem;
-        margin-bottom: -2rem; 
     }
-    
+
     .trabalhosWeb{
-        font-size: 3.5rem;
-        margin-top: -3.5rem;
-        margin-bottom: 1.8rem;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
     }
 
     .traballho{
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
     }
 
+    .listatarefas {
+        margin-top: 3rem;
+        font-size: 3.5rem;
+        margin-bottom: -1rem;
+    }
+
+    .Lista {
+        font-size:1.8rem;
+        padding: 0.2rem;
+        margin-top: 1rem;    
+        margin-left: 68%;  
+    }
 
     #myInput {
-        font-size: 250%;
         padding: 1rem;
         margin-top: 2rem;
-        margin-right: 1rem;
-        margin-left: 7.5rem;
-        border-radius: 50px;
+        margin-right: 0.2rem;
+        margin-left: 0.2rem;
         margin-bottom: 1.5rem;
+        font-size: 180%;
     }
     
     #butt {
         padding-right: 0.625rem;
         padding-left: 0.625rem;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        font-size: 180%;
-        border-radius: 50px;
-        margin-bottom: 30px;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        font-size: 150%;
     }
-
-    .Lista {
-        font-size:180%;
-        padding:0.2rem;
-        margin-top: 1rem;    
-        margin-left: 85%;
-        border-radius:4%;
-    }
-
+    
     li {
         margin-bottom: 0.625rem;
-        font-size: 250%;
+        font-size: 450%;
+    }
+    
+    p {
+        font-size: 1.1rem;
     }
     
     #list {
-        margin-top: -10rem;
-        font-size: 2rem;
-    }
-
-    .listatarefas {
-        margin-top: -3rem;
-        font-size: 4rem;
+        margin-top: -8rem;
+        font-size: 1.5rem;
+        text-align: center;
+        transform: scale(0.4);
     }
 
     .container-calculator{
-      margin-top: 1rem;
-      margin-left:8rem;
-      max-width: 100%;
-      margin-bottom: -1.5rem;
+        max-width: 100%;
+        margin-left:20rem;
+        
     }
-
+    
+    .flex-container-calculator{
+        padding: 2rem 1.6rem 2rem 1.6rem;
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+    
     .mostrador{
-        width: 51.7rem;
-        height: 4rem;
-        margin-left: -5.7rem;
-        font-size: 270%;
+        width: 28rem;
+        height: 2.5rem;
+        margin-left: -18.5rem;
+        
+        font-size: 200%;
+        margin-top: 3rem;
     }
 
+    #input{
+        border-radius: 1.4rem 1.4rem 0px 0px;
+        padding-right: 0.5rem;
+    }
+    
+    #resposta{
+        border-radius: 0px 0px 1.4rem 1.4rem;
+        margin-top: -0.5rem;
+        padding-right: 0.5rem;
+
+    }
     .botao{
-	    height: 3.8rem;
+        height: 4rem;
         bottom: 10px;
-        font-size: 2.83rem;
-        margin-right: 10px;
+        font-size: 2.8rem;    
+        margin-right: 0.9rem;
         margin-bottom: 0.625rem;
     }
 
@@ -1052,253 +1016,32 @@ p {
     }
 
     .Parenteses{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     .Calc {
-        font-size: 200%;
+        font-size:1.8rem;
+        padding: 0.2rem;
         margin-top: 1rem;    
-        margin-left: 83%;
-        border-radius:4%;
+        margin-left: 73%; 
     }
 
     .contactos{
-        margin-top: -3rem;
-        margin-bottom: -3.5rem;
-        font-size: 3rem;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: -2rem;
+        font-size: 3.5rem;
     }
     
     .info{
-        margin-bottom: 3rem;
-        margin-left: 10rem;
-        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 5rem;
+        font-size: 2rem;
     }
     
     .redes{
-        margin: 1rem;
-        margin-top:1rem;
-        width: 10%;
-    }
-
-    @media (max-width: 321px) {
-        h4{
-            font-size: 2.5rem;
-        }
-        
-        h5{
-            font-size: 1.8rem;
-        }
-    
-        .logo{
-            margin-bottom: 0.625rem;
-            margin-top: 0.8125rem;
-            width: 2.8rem;
-        }
-
-        .name{
-            font-size: 4.8rem;
-            margin-top: 1.5rem;
-        }
-        
-        .naveg{
-            margin-top: -2.5rem;
-            margin-bottom: 0rem;
-        }
-
-        .naveg ul{
-            padding: 0rem 0rem 1.5rem 0rem;
-        }
-    
-        .naveg li{
-            margin-top: 0.5rem;
-       }
-        
-        .naveg li a{
-            font-size: 1.8rem;
-            padding-left:1px;
-        }
-    
-        .bioIntro{
-            padding-top: 0.625rem;
-        }
-        
-        .idade{
-            font-size: 1.5rem;
-        }
-
-        .audivisualIntro{
-            padding-top: 30px;
-        }
-
-        .logos{
-            width: 90%;
-            height: 90%;
-            padding-top: 20px;
-        }
-        
-        .verMais{
-            font-size:1.5rem;
-            padding:2px;
-            margin-top: 7px;    
-            margin-left: 75%;
-            border-radius:6%;   
-        }
-    
-        .container-bio{
-            max-width: 75rem;
-        }
-        
-        .arrow {
-            width: 0rem;
-            height: 0rem;
-            border-width: 0 0.4rem 0.4rem 0;
-            padding: 0.5rem;
-            margin-bottom: 0.5rem;
-            margin-left:0.5rem;
-        }
-        
-        .item{
-            margin-top:3rem;
-            margin-bottom: -3rem;
-            padding: 0.4rem;
-        }
-        
-        .itemTitle{
-            font-size: 2.1srem;
-        }
-        
-        .texto p{
-            font-size: 1.5rem;
-        }
-    
-        #filme{
-            margin-top: 1rem;
-        }
-        
-        .meusTrabalhos{
-            font-size: 200%;
-        }
-        
-        .lista{
-            font-size: 30%;
-        }
-        
-        .listaFilmes{
-            margin-top: 2rem;
-        }
-        
-        .av{
-            font-size: 1.7rem;
-        }
-
-        .trabalhosWeb{
-            font-size: 2rem;
-            margin-top: -3rem;
-            margin-bottom: 2rem;
-        }
-    
-        .traballho{
-            font-size: 1.5rem;
-            margin-bottom: 1.8rem;
-        }
-    
-        .listatarefas {
-            margin-top: -3rem;
-            font-size: 3rem;
-            margin-bottom: -1.8rem;
-        }
-    
-        #myInput {
-            font-size: 130%;
-            padding: 1rem;
-            margin-top: 2rem;
-            margin-right: 1rem;
-            margin-left: 3.5rem;
-            border-radius: 50px;
-            margin-bottom: 1.5rem;
-        }
-        
-        #butt {
-            padding-right: 0.625rem;
-            padding-left: 0.625rem;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            font-size: 150%;
-            border-radius: 50px;
-            margin-bottom: 30px;
-        }
-    
-        .Lista {
-            font-size:160%;
-            padding:0.5rem;
-            margin-top: 3rem;    
-            margin-left: 70%;
-        }
-    
-        li {
-            margin-bottom: 0.625rem;
-            font-size: 180%;
-        }
-        
-        #list {
-            margin-top: -13rem;
-            font-size: 3.5rem;
-            transform: scale(0.3);
-        }
-    
-        .container-calculator{
-          margin-top: -1rem;
-          margin-left:-4rem;
-          margin-bottom: -1.5rem;
-          max-width: 45%;
-        }
-    
-        .mostrador{
-            width: 27rem;
-            height: 3rem;
-            margin-left: 5.7rem;
-        }
-    
-        .botao{
-            height: 3.5rem;
-            bottom: 10px;
-            font-size: 2rem;
-            margin-right: 10px;
-            margin-bottom: 0.625rem;
-    }
-    
-        .Apagar {
-            font-size: 2rem;
-        }
-    
-        .Parenteses{
-            font-size: 2rem;
-        }
-    
-        .Calc {
-            font-size: 150%;
-            padding:0.5rem;
-            margin-top: 1rem;    
-            margin-left: 80%;
-        }
-    
-        .contactos{
-            margin: auto;
-            margin-top: -3rem;
-            margin-bottom: -3.5rem;
-            font-size: 2.5rem;
-        }
-        
-        .info{
-            margin-bottom: 4rem;
-            margin-left: 1.52rem;
-            font-size: 1.8rem;
-        }
-        
-        .redes{
-            margin: 1rem;
-            margin-top:-5rem;
-            width: 11%;
-        }
+        margin: 0.50rem;
+        margin-top: -2rem;
+        width: 14%;
     }
 }
